@@ -1,0 +1,16 @@
+﻿; --- Global variable initialization ---
+global lastClickTime := 0
+global clickThreshold := 300  ; Max interval (ms) between two clicks to be considered a double-click
+
+~MButton:: {
+    global lastClickTime, clickThreshold  ; Declare use of global variables inside the function
+
+    currentTime := A_TickCount  ; Get current time in milliseconds since system start
+
+    ; If time between two middle clicks is less than threshold, trigger Ctrl+Home
+    if (currentTime - lastClickTime < clickThreshold) {
+        Send("{Ctrl Down}{Home}{Ctrl Up}")  ; Simulate Ctrl + Home to scroll to the top
+    }
+
+    lastClickTime := currentTime  ; Update last click time
+}
