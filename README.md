@@ -1,4 +1,4 @@
-#🟦 **8/17/2025 Update Download and Use Without AutoHotkey**
+## 🔽 8/17/2025 Update – Download and Use Without AutoHotkey
 You can run the `.exe` file directly without installing AutoHotkey.
 
 
