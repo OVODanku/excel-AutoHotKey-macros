@@ -1,3 +1,7 @@
+#8/17/2025 Update
+You can run the `.exe` file directly without installing AutoHotkey.
+
+
 # excel-AutoHotKey-macros
 Custom AHK scripts to boost Excel navigation using mouse wheel and buttons
 
