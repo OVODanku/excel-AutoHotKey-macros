@@ -19,7 +19,7 @@ This repository contains personal AutoHotkey (AHK v2.0) scripts I use to improve
 - `Ctrl + Shift + mouse wheel.ahk` — scroll to navigate rows
 - `Ctrl + Shift + click.ahk` — mouse left/right buttons to move columns
 - `double_middle_click_scroll_top.ahk` — double-click middle button to jump to top
-- `mouse_and_middle_click_top.ahk` — all functions in one file
+- `Combined_mouse_and_middle_click_top.ahk` — all functions in one file
 
 ## 🛠️ Requirements
 
