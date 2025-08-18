@@ -1,4 +1,0 @@
-﻿; Ctrl + Shift` + scroll mouse wheel ↑↓ → select rows with `Ctrl + Shift + ↑↓
-
-^+WheelUp:: Send("^+{Up}")
-^+WheelDown:: Send("^+{Down}")
